@@ -14,7 +14,9 @@ import Checkbox                 from './Checkbox';
 import CheckboxGroup            from './CheckboxGroup';
 import Column                   from './Column';
 import ComboBox                 from './ComboBox';
+import ComboBoxStateful         from './ComboBoxStateful';
 import DatePicker               from './DatePicker';
+import DatePickerStateful       from './DatePickerStateful';
 import DateTimeInput            from './DateTimeInput';
 import DimensionsInput          from './DimensionsInput';
 import DragNDrop                from './DragNDrop';
@@ -49,6 +51,7 @@ import PageFooter               from './PageFooter';
 import PageHeader               from './PageHeader';
 import Paginator                from './Paginator';
 import PasswordInput            from './PasswordInput';
+import PasswordInputStateful    from './PasswordInputStateful';
 import ProgressBar              from './ProgressBar';
 import ProgressIndicator        from './ProgressIndicator';
 import Radio                    from './Radio';
@@ -70,6 +73,7 @@ import Table                    from './Table';
 import TableCell                from './TableCell';
 import TableRow                 from './TableRow';
 import Tabs                     from './Tabs';
+import TabsStateful             from './TabsStateful';
 import Tag                      from './Tag';
 import TagInput                 from './TagInput';
 import Text                     from './Text';
@@ -90,7 +94,9 @@ export {
     CheckboxGroup,
     Column,
     ComboBox,
+    ComboBoxStateful,
     DatePicker,
+    DatePickerStateful,
     DateTimeInput,
     DimensionsInput,
     DragNDrop,
@@ -125,6 +131,7 @@ export {
     PageHeader,
     Paginator,
     PasswordInput,
+    PasswordInputStateful,
     ProgressBar,
     ProgressIndicator,
     Radio,
@@ -146,6 +153,7 @@ export {
     TableCell,
     TableRow,
     Tabs,
+    TabsStateful,
     Tag,
     TagInput,
     Text,
@@ -167,7 +175,9 @@ export default {
     CheckboxGroup,
     Column,
     ComboBox,
+    ComboBoxStateful,
     DatePicker,
+    DatePickerStateful,
     DateTimeInput,
     DimensionsInput,
     DragNDrop,
@@ -202,6 +212,7 @@ export default {
     PageHeader,
     Paginator,
     PasswordInput,
+    PasswordInputStateful,
     ProgressBar,
     ProgressIndicator,
     Radio,
@@ -223,6 +234,7 @@ export default {
     TableCell,
     TableRow,
     Tabs,
+    TabsStateful,
     Tag,
     TagInput,
     Text,
