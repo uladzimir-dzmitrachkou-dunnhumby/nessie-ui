@@ -14,6 +14,7 @@ import Checkbox          from './Checkbox';
 import CurrencyInput     from './CurrencyInput';
 import ComboBox          from './ComboBox';
 import DatePicker        from './DatePicker';
+import DatePickerStateful from './DatePickerStateful';
 import DateTimeInput     from './DateTimeInput';
 import Grid              from './Grid';
 import GridItem          from './GridItem';
@@ -47,6 +48,7 @@ export default {
     ComboBox,
     CurrencyInput,
     DatePicker,
+    DatePickerStateful,
     DateTimeInput,
     Grid,
     GridItem,
