@@ -1,10 +1,19 @@
-import React      from 'react';
-import { render } from 'react-testing-library';
+import React            from 'react';
+import { render }       from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
-const HelloWorld = () => <h1>Hello World</h1>;
-const { debug } = render( <HelloWorld /> );
-debug();
-// <div>
-//   <h1>Hello World</h1>
-// </div>
-// you can also pass an element: debug(getByTestId('messages'))
+import { IconButton }   from '..';
+
+test( 'should render IconButton with default props', () =>
+{
+    const wrapper = render( <IconButton id = "1" /> );
+    wrapper.debug();
+    expect( wrapper ).toMatchSnapshot();
+} );
+
+test( 'should render IconButton with disabled styles', () =>
+{
+    const wrapper = render( <IconButton id = "2" isDisabled /> );
+    wrapper.debug();
+    expect( wrapper ).toMatchSnapshot();
+} );
