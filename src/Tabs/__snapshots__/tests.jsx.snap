@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot tests should render Tabs with default props 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="default paddingX__none paddingY__M"
+      >
+        <div>
+          <div
+            class="default scrollBarsAreVisible paddingX__none paddingY__none scroll__horizontal scrollIndicatorVariant__circle"
+          >
+            <div
+              style="padding: 20px; margin: -20px;"
+            >
+              <div>
+                <div>
+                  <button
+                    class="default active"
+                    disabled=""
+                    role="tab"
+                    type="button"
+                  >
+                    <div>
+                      <div>
+                        English
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="default"
+                    role="tab"
+                    type="button"
+                  >
+                    <div>
+                      <div>
+                        Español
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="default"
+                    role="tab"
+                    type="button"
+                  >
+                    <div>
+                      <div>
+                        Русский
+                      </div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-label="English"
+            class="default"
+            role="tabpanel"
+          >
+            hello!
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="default paddingX__none paddingY__M"
+    >
+      <div>
+        <div
+          class="default scrollBarsAreVisible paddingX__none paddingY__none scroll__horizontal scrollIndicatorVariant__circle"
+        >
+          <div
+            style="padding: 20px; margin: -20px;"
+          >
+            <div>
+              <div>
+                <button
+                  class="default active"
+                  disabled=""
+                  role="tab"
+                  type="button"
+                >
+                  <div>
+                    <div>
+                      English
+                    </div>
+                  </div>
+                </button>
+                <button
+                  class="default"
+                  role="tab"
+                  type="button"
+                >
+                  <div>
+                    <div>
+                      Español
+                    </div>
+                  </div>
+                </button>
+                <button
+                  class="default"
+                  role="tab"
+                  type="button"
+                >
+                  <div>
+                    <div>
+                      Русский
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          aria-label="English"
+          class="default"
+          role="tabpanel"
+        >
+          hello!
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllBySelectText": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getAllByValue": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getBySelectText": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "getByValue": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllBySelectText": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryAllByValue": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryBySelectText": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "queryByValue": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`snapshot tests should render Tabs with disabled styles 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="default paddingX__none paddingY__M"
+      >
+        <div>
+          <div
+            class="default scrollBarsAreVisible paddingX__none paddingY__none scroll__horizontal scrollIndicatorVariant__circle"
+          >
+            <div
+              style="padding: 20px; margin: -20px;"
+            >
+              <div>
+                <div>
+                  <button
+                    class="default active"
+                    disabled=""
+                    role="tab"
+                    type="button"
+                  >
+                    <div>
+                      <div>
+                        English
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="default"
+                    role="tab"
+                    type="button"
+                  >
+                    <div>
+                      <div>
+                        Español
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    class="default"
+                    role="tab"
+                    type="button"
+                  >
+                    <div>
+                      <div>
+                        Русский
+                      </div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-label="English"
+            class="default"
+            role="tabpanel"
+          >
+            hello!
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="default paddingX__none paddingY__M"
+    >
+      <div>
+        <div
+          class="default scrollBarsAreVisible paddingX__none paddingY__none scroll__horizontal scrollIndicatorVariant__circle"
+        >
+          <div
+            style="padding: 20px; margin: -20px;"
+          >
+            <div>
+              <div>
+                <button
+                  class="default active"
+                  disabled=""
+                  role="tab"
+                  type="button"
+                >
+                  <div>
+                    <div>
+                      English
+                    </div>
+                  </div>
+                </button>
+                <button
+                  class="default"
+                  role="tab"
+                  type="button"
+                >
+                  <div>
+                    <div>
+                      Español
+                    </div>
+                  </div>
+                </button>
+                <button
+                  class="default"
+                  role="tab"
+                  type="button"
+                >
+                  <div>
+                    <div>
+                      Русский
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          aria-label="English"
+          class="default"
+          role="tabpanel"
+        >
+          hello!
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllBySelectText": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getAllByValue": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getBySelectText": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "getByValue": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllBySelectText": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryAllByValue": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryBySelectText": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "queryByValue": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

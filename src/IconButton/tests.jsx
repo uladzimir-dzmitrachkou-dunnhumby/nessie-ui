@@ -4,16 +4,20 @@ import 'jest-dom/extend-expect';
 
 import { IconButton }   from '..';
 
-test( 'should render IconButton with default props', () =>
-{
-    const wrapper = render( <IconButton id = "1" /> );
-    wrapper.debug();
-    expect( wrapper ).toMatchSnapshot();
-} );
 
-test( 'should render IconButton with disabled styles', () =>
+describe( 'snapshot tests', () =>
 {
-    const wrapper = render( <IconButton id = "2" isDisabled /> );
-    wrapper.debug();
-    expect( wrapper ).toMatchSnapshot();
+    test( 'should render IconButton with default props', () =>
+    {
+        const wrapper = render( <IconButton id = "first" /> );
+        // wrapper.debug();
+        expect( wrapper ).toMatchSnapshot();
+    } );
+
+    test( 'should render IconButton with disabled styles', () =>
+    {
+        const wrapper = render( <IconButton id = "second" isDisabled /> );
+        // wrapper.debug();
+        expect( wrapper ).toMatchSnapshot();
+    } );
 } );

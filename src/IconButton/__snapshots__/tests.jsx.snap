@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render IconButton with default props 1`] = `
+exports[`snapshot tests should render IconButton with default props 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <button
         class="default role__default size__undefined"
-        id="1"
+        id="first"
         tabindex="0"
         type="button"
       >
@@ -20,7 +20,7 @@ Object {
   "container": <div>
     <button
       class="default role__default size__undefined"
-      id="1"
+      id="first"
       tabindex="0"
       type="button"
     >
@@ -75,7 +75,7 @@ Object {
 }
 `;
 
-exports[`should render IconButton with disabled styles 1`] = `
+exports[`snapshot tests should render IconButton with disabled styles 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -83,7 +83,7 @@ Object {
       <button
         class="default disabled role__default size__undefined"
         disabled=""
-        id="2"
+        id="second"
         tabindex="0"
         type="button"
       >
@@ -97,7 +97,7 @@ Object {
     <button
       class="default disabled role__default size__undefined"
       disabled=""
-      id="2"
+      id="second"
       tabindex="0"
       type="button"
     >
