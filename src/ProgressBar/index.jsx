@@ -19,7 +19,7 @@ const ProgressBar = ( props ) =>
 {
     const { percentage } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     return (
         <div className = { cssMap.default }>

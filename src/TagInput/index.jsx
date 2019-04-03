@@ -84,7 +84,7 @@ const TagInput = forwardRef( ( props, ref ) =>
     const inputRef = useRef();
     const outerRef = useRef();
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
     const id = useId( componentName, props );
 
     const {

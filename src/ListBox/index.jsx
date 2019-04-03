@@ -40,7 +40,7 @@ const ListBox = props =>
         selection,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     let realSelection = selection;
 

@@ -42,7 +42,7 @@ const Checkbox = forwardRef( ( props, ref ) =>
         label,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
     const id = useId( componentName, props );
 
     let labelContent = children || label;

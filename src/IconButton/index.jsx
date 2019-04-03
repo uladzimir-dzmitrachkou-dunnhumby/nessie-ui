@@ -33,7 +33,7 @@ const IconButton = props =>
         value,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     return (
         <button

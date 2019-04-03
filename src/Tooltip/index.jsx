@@ -27,7 +27,7 @@ const Tooltip = props =>
         onClickClose,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     return (
         <div

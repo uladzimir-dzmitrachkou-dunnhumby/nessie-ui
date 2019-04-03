@@ -17,7 +17,7 @@ const componentName = 'Tab';
 
 const Tab = ( props ) =>
 {
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
     const {
         children,
         label,

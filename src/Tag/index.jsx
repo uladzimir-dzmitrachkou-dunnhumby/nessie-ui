@@ -27,7 +27,7 @@ const Tag = props =>
         onClick,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
     const id = useId( componentName, props );
 
     let labelText = children || label;

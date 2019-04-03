@@ -21,7 +21,7 @@ const Spinner = ( props ) =>
 {
     const { size } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     return (
         <Icon

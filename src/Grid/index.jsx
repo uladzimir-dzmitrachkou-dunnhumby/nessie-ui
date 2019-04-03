@@ -27,7 +27,7 @@ const Grid = props =>
         rows,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     return (
         <div

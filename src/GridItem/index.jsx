@@ -23,7 +23,7 @@ const GridItem = props =>
         rowSpan,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     return (
         <div

@@ -26,7 +26,7 @@ const ListBoxOptionGroup = props =>
         options,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     return (
         <li

@@ -70,7 +70,7 @@ const ScrollBox = props =>
         scrollIndicatorVariant,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     const handleClickScrollButton = useCallback( ( dir, e ) =>
     {

@@ -133,7 +133,7 @@ const componentName = 'ComboBox';
 
 const ComboBox = props =>
 {
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
     const id = useId( componentName, props );
 
     const [ stateActiveOption, setActiveOption ] = useState( undefined );

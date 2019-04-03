@@ -20,7 +20,7 @@ const componentName = 'TimeInput';
 
 const TimeInput = props =>
 {
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     const {
         hourIsDisabled,

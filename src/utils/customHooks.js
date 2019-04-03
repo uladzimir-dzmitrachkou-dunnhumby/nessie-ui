@@ -24,10 +24,14 @@ import { generateId }           from '.';
  */
 function useTheme( displayName, props )
 {
-    const { [ displayName ] : theme } = useContext( ThemeContext );
+    const { classNames, variables } = useContext( ThemeContext );
+    const { [ displayName ] : cssMap } = classNames;
 
-    return props.cssMap ||
-        ( typeof theme === 'function' ? theme( props ) : theme );
+    return [
+        props.cssMap ||
+           ( typeof cssMap === 'function' ? cssMap( props ) : cssMap ),
+        variables,
+    ];
 }
 
 

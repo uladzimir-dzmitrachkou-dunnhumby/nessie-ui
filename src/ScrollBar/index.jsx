@@ -35,7 +35,7 @@ const ScrollBar = props =>
         thumbSize,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
     const isVertical = orientation === 'vertical';
     const scrollLength = Math.abs( scrollMax - scrollMin );
     const thumbOffset =

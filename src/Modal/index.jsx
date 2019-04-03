@@ -30,7 +30,7 @@ const Modal = ( props ) =>
 
     const { children } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     return (
         <div

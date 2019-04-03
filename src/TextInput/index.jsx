@@ -26,7 +26,7 @@ const componentName = 'TextInput';
 const TextInput = forwardRef( ( props, ref ) =>
 {
     const inputRef = useRef();
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     useImperativeHandle( ref, () => ( {
         focus : () => inputRef.current.focus(),

@@ -28,7 +28,7 @@ const Switch = props =>
         label,
     } = props;
 
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
     const id = useId( componentName, props );
 
     return (

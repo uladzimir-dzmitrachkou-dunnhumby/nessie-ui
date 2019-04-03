@@ -23,7 +23,7 @@ const componentName = 'TextArea';
 
 const TextArea = forwardRef( ( props, ref ) =>
 {
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     const textAreaRef = useRef();
 

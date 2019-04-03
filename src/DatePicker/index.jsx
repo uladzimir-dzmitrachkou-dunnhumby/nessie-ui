@@ -19,7 +19,7 @@ const componentName = 'DatePicker';
 
 const DatePicker = props =>
 {
-    const cssMap = useTheme( componentName, props );
+    const [ cssMap ] = useTheme( componentName, props );
 
     const {
         hasTimeInput,
